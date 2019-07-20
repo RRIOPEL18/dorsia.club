@@ -3,8 +3,44 @@
 <head>
   <meta charset="utf-8">
   <title>The Dorsia Club</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 </head>
 <body>
-  <img class="max-width" src="images/homescreen.svg"></img>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
+    <section>
+      <div>
+        <div class="masthead grid grid-middle gutter">
+            <i class="icon i-96 pad-t-1-2">
+              <a class="logo" href="index.html">
+                <img class="logo" src="images/favicon.svg" alt="#" aria-details="logo">
+              </a>
+            </i>
+            <img class="header1 max-width max-height" src="images/homescreen.svg"></img>
+          </div>
+          <div class="nav unit text-center xs-1 s-1-4 m-3-4 l-3-4 pad-t-1-2 pad-b-1-2">
+            <nav role="navigation" id="nav" tabindex="0">
+              <ul class="list-group-inline mega push-0">
+                <li><a class="ib gutter-1-4" href="#"><span>Finance</span></a></li>
+                <li><a class="ib gutter-1-4" href="#"><span>Philosophy</span></a></li>
+                <li><a class="ib gutter-1-4" href="#"><span>Podcasts</span></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
 </body>
 </html>
