@@ -1,9 +1,15 @@
+html {
+  background-image: url("../images/bgimage.svg");
+  background-repeat: no-repeat;
+  background-position: center, top;
+}
+
 a {
   text-decoration: none;
   color: #d5d5d5;
 }
 
-.a: hover {
+a:hover {
   color: #000;
 }
 
@@ -15,7 +21,14 @@ a {
   max-height: 50px;
 }
 
-.logo {
-  width: 20px;
-  height: 20px;
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
