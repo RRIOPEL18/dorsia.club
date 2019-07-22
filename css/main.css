@@ -17,6 +17,12 @@ a:hover {
   color: #000;
 }
 
+.logo1 {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 .header1 {
   max-height: 725px;
 }
