@@ -4,6 +4,10 @@ html {
   background-position: center, top;
 }
 
+h1 {
+  color: #d5d5d5;
+}
+
 a {
   text-decoration: none;
   color: #d5d5d5;
