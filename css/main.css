@@ -3,9 +3,14 @@ html {
 }
 
 section {
-    background-image: url("../images/mobile.svg");
-    background-repeat: no-repeat;
+    background-image: url("../images/bgimage.svg");
+    background-repeat: repeat-y;
     background-position: center, top;
+    max-height: 1200px;
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
   }
 
 h1 {
@@ -21,23 +26,14 @@ a:hover {
   color: #000;
 }
 
-.logo1 {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
 .header1 {
   max-height: 725px;
-}
-
-.head1 {
-  max-height: 50px;
+  }
 }
 
 @media only screen and (min-width: 38em) {
   section {
-      background-image: url("../images/bgimage2.svg");
+      background-image: url("../images/bgimage.svg");
       background-repeat: no-repeat;
       background-position: center, top;
     }
