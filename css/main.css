@@ -3,10 +3,10 @@ html {
 }
 
 section {
-    background-image: url("../images/bgimage.svg");
-    background-repeat: no-repeat;
+    background-image: url("../images/bgimage2.svg");
+    background-repeat: repeat-y, round;
     background-position: center, top;
-    height: 850px;
+    height: 922px;
     width: 100%
   }
 
@@ -17,6 +17,7 @@ h1 {
 a {
   text-decoration: none;
   color: #d5d5d5;
+  background-color: #fff;
 }
 
 a:hover {
@@ -32,6 +33,8 @@ a:hover {
       background-image: url("../images/bgimage.svg");
       background-repeat: no-repeat;
       background-position: center, top;
+      height: 850px;
+      width: 100%
     }
 }
 
@@ -40,6 +43,5 @@ a:hover {
 }
 
 @media only screen and (min-width: 90em) {
-
 
 }
