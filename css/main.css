@@ -4,13 +4,10 @@ html {
 
 section {
     background-image: url("../images/bgimage.svg");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-position: center, top;
-    max-height: 1200px;
-    position: fixed;
-    top: 0;
+    height: 850px;
     width: 100%
-  }
   }
 
 h1 {
@@ -29,7 +26,6 @@ a:hover {
 .header1 {
   max-height: 725px;
   }
-}
 
 @media only screen and (min-width: 38em) {
   section {
