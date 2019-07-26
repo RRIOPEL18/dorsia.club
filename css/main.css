@@ -1,5 +1,5 @@
 html {
-
+  overflow: hidden;
 }
 
 section {
@@ -29,13 +29,7 @@ a:hover {
   }
 
 @media only screen and (min-width: 38em) {
-  section {
-      background-image: url("../images/bgimage.svg");
-      background-repeat: no-repeat;
-      background-position: center, top;
-      height: 850px;
-      width: 100%
-    }
+
 }
 
 @media only screen and (min-width: 60em) {
