@@ -1,14 +1,11 @@
 html {
   overflow: hidden;
+  background-image: url("../images/bgimage2.svg");
+  background-repeat: repeat-y, round;
+  background-position: center, top;
+  height: 922px;
+  width: 100%
 }
-
-section {
-    background-image: url("../images/bgimage2.svg");
-    background-repeat: repeat-y, round;
-    background-position: center, top;
-    height: 922px;
-    width: 100%
-  }
 
 h1 {
   color: #d5d5d5;
@@ -26,7 +23,7 @@ a:hover {
 
 .header1 {
   max-height: 725px;
-  }
+}
 
 @media only screen and (min-width: 38em) {
 
